@@ -1,9 +1,9 @@
 // import Ref from "./Hooks/Ref";
 // import State from "./Hooks/State";
 
-import Counter from "./Hooks/Reducer";
+// import Counter from "./Hooks/Reducer";
 
-// import Memo from "./Hooks/memo/Memo";
+import Memo from "./Hooks/memo/Memo";
 
 // import Parent from "./Hooks/callback/Parent";
 
@@ -19,8 +19,8 @@ function App() {
       {/* <Ref/> */}
       {/**Callback hook example */}
       {/* <Parent/>  */}
-      {/* <Memo/> */}
-      <Counter/>
+      <Memo/>
+      {/* <Counter/> */}
     </>
   );
 }
